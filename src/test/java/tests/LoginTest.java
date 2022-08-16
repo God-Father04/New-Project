@@ -39,6 +39,7 @@ public class LoginTest extends BaseTest {
 		
 		lp.enterCred("Admin", "admin123");
 		lp.submit();
+		System.out.println("Successful");
 	}
 	
 	
