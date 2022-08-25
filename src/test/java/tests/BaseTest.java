@@ -26,7 +26,7 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		
 		//step-3 open webpage
-		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+		driver.get("");
 		
 		//step-4 wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
